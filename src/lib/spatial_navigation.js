@@ -1025,20 +1025,7 @@ var JsSpatialNavigation = {
     }
   },
 
-  // add(<config>);
-  // add(<sectionId>, <config>);
-  add: function() {
-    var sectionId;
-    var config = {};
-
-    if (typeof arguments[0] === 'object') {
-      config = arguments[0];
-    } else if (typeof arguments[0] === 'string' &&
-               typeof arguments[1] === 'object') {
-      sectionId = arguments[0];
-      config = arguments[1];
-    }
-
+  add: function(config, sectionId) {
     if (!sectionId) {
       sectionId = (typeof config.id === 'string') ? config.id : generateId();
     }
