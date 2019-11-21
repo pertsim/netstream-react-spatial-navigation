@@ -1,6 +1,6 @@
 {
-  "name": "react-js-spatial-navigation",
-  "version": "0.1",
+  "name": "ns-react-spatial-navigation",
+  "version": "0.0.4",
   "description": "A wrapper of js-spatial-navigation to react components",
   "main": "build/index.js",
   "peerDependencies": {
@@ -18,9 +18,9 @@
     "build": "webpack --config webpack.config.js"
   },
   "author": {
-    "name": "Gustavo Bennemann de Moura",
-    "email": "gustavobenn@gmail.com",
-    "url": "https://github.com/dead"
+    "name": "Miguel Perello GArcia",
+    "email": "canyavall@gmail.com",
+    "url": "https://github.com/canyavall"
   },
   "devDependencies": {
     "@babel/cli": "^7.6.4",
