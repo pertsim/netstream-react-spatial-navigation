@@ -30,7 +30,8 @@ export enum Direction {
     DOWN = 'down'
 }
 
-export interface JsSpatialNavigation {
+interface IJsSpatialNavigation {
+
     /**
      * Disables the section with the specified sectionId temporarily. Elements defined in this section will become
      * unnavigable until enable() is called.
@@ -77,6 +78,8 @@ export interface JsSpatialNavigation {
      */
     focus: (selector?: string, silent?: boolean) => boolean
 }
+
+export const JsSpatialNavigation: IJsSpatialNavigation
 
 export interface FocusableSectionProps {
     sectionId?: string;
