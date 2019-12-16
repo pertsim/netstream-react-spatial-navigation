@@ -31,6 +31,7 @@ export enum Direction {
 }
 
 interface IJsSpatialNavigation {
+
     /**
      * Disables the section with the specified sectionId temporarily. Elements defined in this section will become
      * unnavigable until enable() is called.
