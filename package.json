@@ -1,6 +1,6 @@
 {
-  "name": "ns-react-spatial-navigation",
-  "version": "0.0.5",
+  "name": "netstream-react-spatial-navigation",
+  "version": "0.0.6",
   "description": "A wrapper of js-spatial-navigation to react components",
   "main": "build/index.js",
   "peerDependencies": {
@@ -16,11 +16,6 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "webpack --watch",
     "build": "webpack --config webpack.config.js"
-  },
-  "author": {
-    "name": "Miguel Perello GArcia",
-    "email": "canyavall@gmail.com",
-    "url": "https://github.com/canyavall"
   },
   "devDependencies": {
     "@babel/cli": "^7.6.4",

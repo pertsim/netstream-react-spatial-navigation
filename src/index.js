@@ -170,7 +170,7 @@ class Focusable extends Component {
         this.el.addEventListener("sn:willfocus", this.handleWillFocus);
         this.el.addEventListener("sn:focused", this.handleFocused);
         this.el.addEventListener("sn:unfocused", this.handleUnfocused);
-        this.el.addEventListener("sn:enter-up", this.handleClickEnter);
+        this.el.addEventListener("sn:enter-down", this.handleClickEnter);
     }
 
     componentWillUnmount() {
@@ -178,7 +178,7 @@ class Focusable extends Component {
         this.el.removeEventListener("sn:willfocus", this.handleWillFocus);
         this.el.removeEventListener("sn:focused", this.handleFocused);
         this.el.removeEventListener("sn:unfocused", this.handleUnfocused);
-        this.el.removeEventListener("sn:enter-up", this.handleClickEnter);
+        this.el.removeEventListener("sn:enter-down", this.handleClickEnter);
     }
 
     ref = (el) => {
